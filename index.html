@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+
+	<title>Monblanproject</title>
+	<meta name="description" content="">
+
+	<!-- Mobile-friendly viewport -->
+	<meta name="viewport" content="user-scalable=1, width=device-width">
+
+	<!-- Turn off "smart" recognition phone number -->
+	<meta name="format-detection" content="telephone=no">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+
+
+	<!-- Style sheet link -->
+	<link type="text/css" href="css/main.css" rel="stylesheet" media="all">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+</head>
+
+
+<body class="home ">
+    <header class="site-header" aria-hidden="true">
+</header>
+
+
+    <main class="profile-page">
+        <section class="profile-card" aria-label="Monblanproject profile">
+            <div class="profile-hero">
+
+                <div class="profile-summary">
+                    <div class="profile-summary__logo">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+
+                    <div class="profile-summary__content">
+                        <div class="profile-summary__top">
+                            <h1 class="profile-summary__title">monblanproject</h1>
+                            <a class="profile-summary__start" href="#">Start on&nbsp; 17-02-2016</a>
+                        </div>
+
+                        <div class="profile-stats">
+                            <div class="profile-stats__item">
+                                <dt>870</dt>
+                                <dd>posts</dd>
+                            </div>
+                            <div class="profile-stats__item">
+                                <dt>11,787</dt>
+                                <dd>followers</dd>
+                            </div>
+                            <div class="profile-stats__item">
+                                <dt>112</dt>
+                                <dd>following</dd>
+                            </div>
+                        </div>
+
+                        <form class="profile-filters" action="#">
+                            <span class="profile-filters__label">Date</span>
+                            <label class="date-field">
+                                <input class="js-datepicker" type="text" placeholder="from" aria-label="Date from">
+                                <button class="date-field__clear" type="button" aria-label="Clear date"></button>
+                                <span class="date-field__icon" aria-hidden="true"></span>
+                            </label>
+                            <label class="date-field">
+                                <input class="js-datepicker" type="text" value="09_08_2016" aria-label="Date to">
+                                <button class="date-field__clear" type="button" aria-label="Clear date"></button>
+                                <span class="date-field__icon" aria-hidden="true"></span>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-card__inner">
+
+                <div class="view-switch" aria-label="View switcher">
+                    <button class="view-switch__button" type="button" data-view="grid" aria-label="Tile view">
+                        <span class="view-switch__icon view-switch__icon--grid">
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="8" y="16" width="6" height="6" fill="#3D8EDA" />
+                                <rect x="16" y="8" width="6" height="6" fill="#3D8EDA" />
+                                <rect x="16" y="16" width="6" height="6" fill="#3D8EDA" />
+                                <rect width="6" height="6" fill="#3D8EDA" />
+                                <rect x="8" width="6" height="6" fill="#3D8EDA" />
+                                <rect x="16" width="6" height="6" fill="#3D8EDA" />
+                                <rect y="8" width="6" height="6" fill="#3D8EDA" />
+                                <rect y="16" width="6" height="6" fill="#3D8EDA" />
+                                <rect x="8" y="8" width="6" height="6" fill="#3D8EDA" />
+                            </svg>
+                        </span>
+                    </button>
+                    <button class="view-switch__button is-active" type="button" data-view="rows" aria-label="Rows view">
+                        <span class="view-switch__icon view-switch__icon--rows">
+                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="6" height="6" fill="#C8C7C7" />
+                                <rect y="8" width="6" height="6" fill="#C8C7C7" />
+                                <rect y="16" width="6" height="6" fill="#C8C7C7" />
+                                <rect x="9" y="10" width="15" height="2" fill="#C8C7C7" />
+                                <rect x="9" y="18" width="15" height="2" fill="#C8C7C7" />
+                                <rect x="9" y="2" width="15" height="2" fill="#C8C7C7" />
+                            </svg>
+
+                        </span>
+                    </button>
+                </div>
+
+                <section class="gallery js-gallery is-rows-view">
+                    <article class="post-card">
+                        <img class="post-card__image" src="img/1.png" alt="Clouds at sunset">
+                        <div class="post-card__content">
+                            <div class="post-card__group">
+                                <strong>Today</strong>
+                                <span class="post-card__meta"><i class="icon icon--heart"></i>128</span>
+                                <span class="post-card__meta"><i class="icon icon--comment"></i>31</span>
+                            </div>
+                            <div class="post-card__group">
+                                <strong>9-08-2016</strong>
+                                <span class="post-card__meta"><i class="icon icon--heart"></i>67</span>
+                                <span class="post-card__meta"><i class="icon icon--comment"></i>22</span>
+                            </div>
+                            <div class="post-card__group post-card__group--upload">
+                                <strong>Image upload</strong>
+                                <span>11-04-2016</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <img class="post-card__image" src="img/2.png" alt="Boats on water">
+                        <div class="post-card__content">
+                            <div class="post-card__group"><strong>Today</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>128</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>31</span></div>
+                            <div class="post-card__group"><strong>9-08-2016</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>67</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>22</span></div>
+                            <div class="post-card__group post-card__group--upload"><strong>Image
+                                    upload</strong><span>11-04-2016</span></div>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <img class="post-card__image" src="img/3.png" alt="Abstract circular architecture">
+                        <div class="post-card__content">
+                            <div class="post-card__group"><strong>Today</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>128</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>31</span></div>
+                            <div class="post-card__group"><strong>9-08-2016</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>67</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>22</span></div>
+                            <div class="post-card__group post-card__group--upload"><strong>Image
+                                    upload</strong><span>11-04-2016</span></div>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <img class="post-card__image" src="img/4.png" alt="Portrait in nature">
+                        <div class="post-card__content">
+                            <div class="post-card__group"><strong>Today</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>128</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>31</span></div>
+                            <div class="post-card__group"><strong>9-08-2016</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>67</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>22</span></div>
+                            <div class="post-card__group post-card__group--upload"><strong>Image
+                                    upload</strong><span>11-04-2016</span></div>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <img class="post-card__image" src="img/5.png" alt="Forest path">
+                        <div class="post-card__content">
+                            <div class="post-card__group"><strong>Today</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>128</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>31</span></div>
+                            <div class="post-card__group"><strong>9-08-2016</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>67</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>22</span></div>
+                            <div class="post-card__group post-card__group--upload"><strong>Image
+                                    upload</strong><span>11-04-2016</span></div>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <img class="post-card__image" src="img/6.png" alt="Mountain range">
+                        <div class="post-card__content">
+                            <div class="post-card__group"><strong>Today</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>128</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>31</span></div>
+                            <div class="post-card__group"><strong>9-08-2016</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>67</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>22</span></div>
+                            <div class="post-card__group post-card__group--upload"><strong>Image
+                                    upload</strong><span>11-04-2016</span></div>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <img class="post-card__image" src="img/7.png" alt="Ceramic cups">
+                        <div class="post-card__content">
+                            <div class="post-card__group"><strong>Today</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>128</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>31</span></div>
+                            <div class="post-card__group"><strong>9-08-2016</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>67</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>22</span></div>
+                            <div class="post-card__group post-card__group--upload"><strong>Image
+                                    upload</strong><span>11-04-2016</span></div>
+                        </div>
+                    </article>
+                    <article class="post-card">
+                        <img class="post-card__image" src="img/1.png" alt="Black sports car">
+                        <div class="post-card__content">
+                            <div class="post-card__group"><strong>Today</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>128</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>31</span></div>
+                            <div class="post-card__group"><strong>9-08-2016</strong><span class="post-card__meta"><i
+                                        class="icon icon--heart"></i>67</span><span class="post-card__meta"><i
+                                        class="icon icon--comment"></i>22</span></div>
+                            <div class="post-card__group post-card__group--upload"><strong>Image
+                                    upload</strong><span>11-04-2016</span></div>
+                        </div>
+                    </article>
+            
+                </section>
+
+                <button class="load-more" type="button">Load more</button>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+	
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
